@@ -27,6 +27,7 @@ main {
 
 table {
   border-collapse: collapse;
+  width: 620px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10px;
