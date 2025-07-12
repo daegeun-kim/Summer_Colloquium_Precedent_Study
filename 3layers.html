@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML subpage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="subpage">
+    <header>
+        <h1>D3.js</h1>
+        <div class="subpage-title">
+            <p>
+                Mike Bostock<br>
+                Daegeun Kim<br>
+                <br>
+                <B>3 Layers of Analysis</B>
+            </p>
+        </div>
+            <button id="mainpage">Datasheet</button>
+            <button id="subpage1">3 Layers of Analysis</button>
+    </header>
+    <main>
+        <div class="text-frame">
+            <p>Ontological Study</p>
+            <p>
+                D3.js (Data-Driven Documents) is a JavaScript library designed for data visualization on the web. 
+                It is fundamentally a toolkit that allows developers to bind data to DOM elements and then apply transformations to those elements based on the data.<br>
+                <br>
+                Core components and building blocks:
+                <li><b>Selections:</b> Mechanism to select DOM elements using CSS-like selectors (d3.select(), d3.selectAll()).</li><br>
+                <li><b>Data Binding:</b> Core concept where data is bound to DOM elements using .data() and .enter(), allowing dynamic visualizations.</li><br>
+                <li><b>SVG and Canvas Manipulation:</b> D3 modifies HTML, SVG, and CSS directly, enabling full control over graphic primitives.</li><br>
+                <li><b>Scales, Axes, and Layouts:</b> Tools for mapping data domains to visual ranges (d3.scaleLinear, d3.axisBottom, etc.).</li><br>
+                <li><b>Transitions & Animations:</b> Enables smooth animations and updates (.transition()).</li><br>
+                <li><b>Modules:</b> Modern D3 is modular (e.g., d3-scale, d3-shape, etc.), allowing lightweight usage by importing only required components.</li><br>
+                <li><b>d3js.org Website:</b> Contains dozens of interactive examples demonstrating usage; serves as both a documentation platform and a library of precedents for developers.</li><br>
+                <li><b>Visual Output:</b> Produces interactive, web-based visualizations using minimalist styles: thin line weights, clear typographic hierarchy, and subtle default color palettes.</li><br>
+            </p>
+        </div>
+        <div class="text-frame">
+            <p>
+                Historical & Contextual Analysis<br>
+            </p>
+            <p>
+                D3.js was created by Mike Bostock in 2011, evolving from his earlier work on Protovis, another visualization toolkit.
+                At the time, there was a shift in web development towards native browser technologies (like SVG and HTML5), replacing Flash-based visualizations.
+                The rise of open data, data journalism, and interactive storytelling in media (e.g., The New York Times, where Bostock worked) demanded tools that could handle real-time, interactive, and custom data graphics.
+                <br><br>
+                D3js responses to existing tools being either too rigid (charting libraries with limited customization) or too low-level (manual SVG/Canvas coding).
+            </p>
+            </div>
+        <div class="text-frame">
+            <p>
+                Visual & Aesthetic Representation<br>
+            </p>
+            Visual Language:<br><br>
+            <li>Minimalist default aesthetics
+            <li>Highly interactive</li>
+            <li>Declarative representation</li>
+            <br>
+            Stylistic lineage:<br><br>
+            Influenced by Edward Tufte's principles of data-ink ratio and clarity.
+            Draws visual lineage from The Grammar of Graphics (also foundational to ggplot2).
+            Closely associated with the New York Times' digital graphic style, where Bostock and other D3 contributors have applied it in journalistic storytelling.
+            <br><br>
+            Representational Community:
+            D3's examples and ecosystem place it within the computational design and open data communities.
+            Its visualizations reflect the ethos of transparent, user-controlled, and web-native information display.
+        </div>
+        <img src="d3-js2.png" width="623" height=auto alt="D3.js image">
+    </main>
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>

@@ -6,15 +6,19 @@
     <title>Simple HTML Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="mainpage">
     <header>
         <h1>D3.js</h1>
         <div class="subtitle">
             <p>
                 Mike Bostock<br>
-                Daegeun Kim
+                Daegeun Kim<br>
+                <br>
+                <b>Datasheet</b>
             </p>
         </div>
+            <button id="mainpage">Datasheet</button>
+            <button id="subpage1">3 Layers of Analysis</button>
     </header>
     <main>
         <table>
@@ -48,7 +52,7 @@
                 <br>
                 “I'd say the motivation was to stop reinventing the wheel. The goal of D3 is to embrace and build on standard, universal representations of graphics, rather than reinvent them each time.”<br><br>
                 “With D3, the idea is to leverage the native representation … the toolkit isn't a middleman, preventing you from using browser features.”<br><br>
-                “By using D3, your code will be shorter and you'll be able to do more. … And better still, you'’'ll get human-readable ticks at multiples of 2, 5 or 10…” <br>
+                “By using D3, your code will be shorter and you'll be able to do more. … And better still, you'll get human-readable ticks at multiples of 2, 5 or 10…” <br>
             </p>
         </div>
         <div class="text-frame">
@@ -59,12 +63,12 @@
                 <b>Positive Comments:</b><br><br>
                 “D3.js is an amazing library if your a designer. I have more flexibility with D3.js than any of the other libraries.”<br>
                 “its great for hackathons tho. won one last year using D3”<br>
-                "Users note D3’s vast repository of examples, modular architecture, and community support"<br>
+                "Users note D3's vast repository of examples, modular architecture, and community support"<br>
                 <br>
                 <b>Negative Comments:</b><br>
                 “One of the main disadvantages of D3.js is its steep learning curve and complexity.”<br>
                 “For business analytics, close to zero value. Too low level. Pandas plot, seaborn, matplotlib does 99.9% of what is needed.”<br>
-                “…you find yourself reaching in order to make something look cool, that isn’t actually effective.”<br>
+                “…you find yourself reaching in order to make something look cool, that isn't actually effective.”<br>
                 <br>
                 <b>Suggestions</b><br>
                 "Use Canvas or WebGL instead of SVG when rendering thousands of elements—greatly improves rendering speed"<br>
@@ -76,4 +80,5 @@
     </main>
     <footer>
     </footer>
+    <script src="script.js"></script>
 </body>

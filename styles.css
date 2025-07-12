@@ -1,6 +1,15 @@
-body {
+.mainpage {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
   background: linear-gradient(0deg, #ffffff 0%, #ffffff 50%, #cad3e7 100%);
+  text-align: center;
+  color: #111;
+  margin: 0;      
+  min-height: 100vh;
+}
+
+.subpage {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  background: linear-gradient(0deg, #ffffff 0%, #ffffff 50%, #b4ebdd 100%);
   text-align: center;
   color: #111;
   margin: 0;      
@@ -64,4 +73,19 @@ th, td {
 }
 .text-frame p:first-of-type {
   font-weight: bold;
+}
+
+button {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(92, 92, 92, 0.2);
 }
